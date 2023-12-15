@@ -1,0 +1,540 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "Project4.record 1",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "_id",
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": false,
+                    "GUID": "7e5fe6c8-9a2f-474e-a200-a3acc4922ab3",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "ID",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "c23a133b-8c0a-4e13-aae9-2c6bf6b4173b",
+                    "required": true,
+                    "examples": [
+                        7999952
+                    ],
+                    "error": {},
+                    "childRelationships": [
+                        "305274cc-52c1-4b07-817a-dd6f2d4ab40e"
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "gender",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "8f79fd4d-3ee1-4ae9-aebe-0088ca471970",
+                    "required": true,
+                    "examples": [
+                        "F"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "owns_car",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "f2cff41b-997c-4c44-a142-5e74388e02e2",
+                    "required": true,
+                    "examples": [
+                        1
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "owns_realty",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "a2166ed8-3adf-49ce-9566-95bc8a36d8e0",
+                    "required": true,
+                    "examples": [
+                        1
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "#_of_children",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "6d44c3a7-d4c3-464f-9a3c-162e513881a7",
+                    "required": true,
+                    "examples": [
+                        19
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "total_income",
+                    "isActivated": true,
+                    "type": "numeric",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "0afc011f-a56d-4b60-804b-54371a34f9e2",
+                    "required": true,
+                    "examples": [
+                        116653.5
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "income_type",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "3482d7bc-a766-4e9c-ab5d-47f4a39271b5",
+                    "required": true,
+                    "examples": [
+                        "Working"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "education",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "52b0f513-c9a8-4f78-a399-ab7eb93d4f1f",
+                    "required": true,
+                    "examples": [
+                        "Secondary / secondary special"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "family_status",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "104a2a10-a803-435c-a185-9f941d58bcde",
+                    "required": true,
+                    "examples": [
+                        "Married"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "housing_type",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "2cea461b-af41-4029-a20e-4836516c62bd",
+                    "required": true,
+                    "examples": [
+                        "House / apartment"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "mobile_cellphone?",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "cd20a67c-436f-4265-9245-f6e83bd3128d",
+                    "required": true,
+                    "examples": [
+                        1
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "work_phone?",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "f76967fa-b70a-49a6-bc14-06428a3d3844",
+                    "required": true,
+                    "examples": [
+                        1
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "home_phone?",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "580818d1-b89d-4a2d-8b58-ec7c9f5b6128",
+                    "required": true,
+                    "examples": [
+                        1
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "email?",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "83a8d811-b424-471a-a601-34805fdb0d28",
+                    "required": true,
+                    "examples": [
+                        1
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "occupation",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "977b660b-6450-43df-af50-03bdb9042994",
+                    "required": true,
+                    "examples": [
+                        "Sales staff"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "#_of_family_members",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "437fc4f6-0e1e-42ab-8cd8-0d59c260c77c",
+                    "required": true,
+                    "examples": [
+                        20
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "age",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "01bc281d-5983-49e1-ae6f-c81da6245943",
+                    "required": true,
+                    "examples": [
+                        68
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "years_employed",
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "e9e8bfb6-5d4e-4ab0-96f7-437238465fce",
+                    "required": true,
+                    "examples": [
+                        48
+                    ],
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "9d7cb01d-5fcd-4df6-9003-8f30803997e8",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "2c87dee1-ae8b-493f-ab62-15d4145e206b",
+            "code": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "d4d76adb-452f-463a-aab9-357832d19ab5"
+        },
+        {
+            "collectionName": "Project4.record 2",
+            "type": "object",
+            "properties": [
+                {
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "GUID": "1a89cf53-6112-47d2-b0a7-3158ec52fd6e",
+                    "name": "ID",
+                    "foreignCollection": "2c87dee1-ae8b-493f-ab62-15d4145e206b",
+                    "foreignField": [
+                        "2c87dee1-ae8b-493f-ab62-15d4145e206b",
+                        "c23a133b-8c0a-4e13-aae9-2c6bf6b4173b"
+                    ],
+                    "parentRelationship": "305274cc-52c1-4b07-817a-dd6f2d4ab40e",
+                    "relationshipType": "Foreign Key",
+                    "error": {}
+                },
+                {
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "GUID": "752e6983-be88-4dcf-8088-388caeac8092",
+                    "name": "MONTHS_BALANCE",
+                    "error": {}
+                },
+                {
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "GUID": "64b89e44-0f23-4e15-8ac9-ffbe3aea2be9",
+                    "name": "STATUS",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "99cc9271-6385-43bd-90c0-9bb6a5608fba"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "f77da440-06ba-47b2-9d9d-8c0d2613bff8"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "Project4.record 1",
+            "type": "bucket",
+            "collectionIds": [
+                "2c87dee1-ae8b-493f-ab62-15d4145e206b"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "d4d76adb-452f-463a-aab9-357832d19ab5",
+            "code": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "2c87dee1-ae8b-493f-ab62-15d4145e206b",
+                    "c23a133b-8c0a-4e13-aae9-2c6bf6b4173b"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "f77da440-06ba-47b2-9d9d-8c0d2613bff8",
+                    "1a89cf53-6112-47d2-b0a7-3158ec52fd6e"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "305274cc-52c1-4b07-817a-dd6f2d4ab40e",
+            "parentCollection": "2c87dee1-ae8b-493f-ab62-15d4145e206b",
+            "childCollection": "f77da440-06ba-47b2-9d9d-8c0d2613bff8",
+            "hackoladeStyles": {
+                "GUID": "1165adca-fd69-4cb0-b037-28f8ee6466cc",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1409.5999755859375,
+                        "y": 1152.0999755859375
+                    },
+                    {
+                        "x": 1363.2999877929688,
+                        "y": 1152.0999755859375
+                    },
+                    {
+                        "x": 1363.2999877929688,
+                        "y": 1235.5
+                    },
+                    {
+                        "x": 1317,
+                        "y": 1235.5
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "d4d76adb-452f-463a-aab9-357832d19ab5": "Project4.record 1",
+        "7e5fe6c8-9a2f-474e-a200-a3acc4922ab3": "_id",
+        "c23a133b-8c0a-4e13-aae9-2c6bf6b4173b": "ID",
+        "8f79fd4d-3ee1-4ae9-aebe-0088ca471970": "gender",
+        "f2cff41b-997c-4c44-a142-5e74388e02e2": "owns_car",
+        "a2166ed8-3adf-49ce-9566-95bc8a36d8e0": "owns_realty",
+        "6d44c3a7-d4c3-464f-9a3c-162e513881a7": "#_of_children",
+        "0afc011f-a56d-4b60-804b-54371a34f9e2": "total_income",
+        "3482d7bc-a766-4e9c-ab5d-47f4a39271b5": "income_type",
+        "52b0f513-c9a8-4f78-a399-ab7eb93d4f1f": "education",
+        "104a2a10-a803-435c-a185-9f941d58bcde": "family_status",
+        "2cea461b-af41-4029-a20e-4836516c62bd": "housing_type",
+        "cd20a67c-436f-4265-9245-f6e83bd3128d": "mobile_cellphone?",
+        "f76967fa-b70a-49a6-bc14-06428a3d3844": "work_phone?",
+        "580818d1-b89d-4a2d-8b58-ec7c9f5b6128": "home_phone?",
+        "83a8d811-b424-471a-a601-34805fdb0d28": "email?",
+        "977b660b-6450-43df-af50-03bdb9042994": "occupation",
+        "437fc4f6-0e1e-42ab-8cd8-0d59c260c77c": "#_of_family_members",
+        "01bc281d-5983-49e1-ae6f-c81da6245943": "age",
+        "e9e8bfb6-5d4e-4ab0-96f7-437238465fce": "years_employed",
+        "2c87dee1-ae8b-493f-ab62-15d4145e206b": "Project4.record 1",
+        "f77da440-06ba-47b2-9d9d-8c0d2613bff8": "Project4.record 2",
+        "1a89cf53-6112-47d2-b0a7-3158ec52fd6e": "ID",
+        "752e6983-be88-4dcf-8088-388caeac8092": "MONTHS_BALANCE",
+        "64b89e44-0f23-4e15-8ac9-ffbe3aea2be9": "STATUS",
+        "305274cc-52c1-4b07-817a-dd6f2d4ab40e": ""
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "215c5c6b-aa29-45c3-8611-74df658eb942"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "269205c4-d84b-41b1-b463-1840802e85ce"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "b87ef549-9b2e-4757-ac80-ef227013acf2"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "JSON",
+    "dbVersion": "2019-09",
+    "appTarget": "JSON",
+    "creationTS": "2023-12-14T20:04:38.734Z",
+    "GUID": "e62659a0-a583-4163-bf82-665b35fb61b4",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-12-14T20:15:29.297Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.0.3"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "2c87dee1-ae8b-493f-ab62-15d4145e206b",
+                        "x": 1050,
+                        "y": 1050,
+                        "width": 267,
+                        "height": 371,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "f77da440-06ba-47b2-9d9d-8c0d2613bff8",
+                        "x": 1409.5999755859375,
+                        "y": 1108.5999755859375,
+                        "width": 227,
+                        "height": 87,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1010,
+                        "y": 1010,
+                        "GUID": "d4d76adb-452f-463a-aab9-357832d19ab5"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
